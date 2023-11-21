@@ -5,23 +5,20 @@ import (
 	"time"
 )
 
-var s = "seven"
-var firstName string
-var lastName string
-var phoneNumber string
-var age int
-var birthDate time.Time
-
-func main() {
-	var s2 = "six"
-
-	log.Println("s is", s)
-	log.Println("s2 is", s2)
-
-	saySomething("xxx")
+type User struct {
+	FirstName   string
+	LastName    string
+	PhoneNumber string
+	Age         int
+	BirthDate   time.Time
 }
 
-func saySomething(s3 string) (string, string) {
-	log.Println("s from the saySomething func is", s)
-	return s3, "world"
+func main() {
+	user := User{
+		FirstName:   "Reuben",
+		LastName:    "deVries",
+		PhoneNumber: "1-555-555-1212",
+	}
+
+	log.Println("First Name:", user.FirstName, "Last Name:", user.LastName, "Birth Date:", user.BirthDate)
 }
