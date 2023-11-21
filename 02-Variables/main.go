@@ -1,14 +1,22 @@
 package main
 
-import "fmt"
+import "log"
 
-var myFirstString = "My first string"
+var s = "seven"
 
 func main() {
+	var s2 = "six"
 
-	var mySecondString string
-	mySecondString = " My second string"
+	s := "eight"
 
-	fmt.Println("The variable myFirstString is set to", myFirstString)
-	fmt.Println("The variable mySecondString is set to", mySecondString)
+	log.Println("s is", s)
+	log.Println("s2 is", s2)
+
+	saySomething("xxx")
+
+}
+
+func saySomething(s3 string) (string, string) {
+	log.Println("s from the saySomething func is", s)
+	return s3, "World"
 }
