@@ -1,25 +1,22 @@
 package main
 
-import "fmt"
-
-func addNumbersInLoop(listOfNumbers[]int)(int, error){
-	
-	var sum int = 0
-
-	for _, v := range listOfNumbers {
-		sum += v
-	}
-	return sum, nil
-}
+import "log"
 
 func main() {
+	type User struct {
+		FirstName string
+		LastName  string
+		Email     string
+		Age       int
+	}
 
-	listOfNumbers := []int{2,4,6,8,10,12,14,16,18,20}
+	var users []User
+	users = append(users, User{"John", "Smith", "john@smith.com", 30})
+	users = append(users, User{"Mary", "Jones", "mary@jones.com", 20})
+	users = append(users, User{"Sally", "Brown", "sally@smith.com", 45})
+	users = append(users, User{"Alex", "Anderson", "alex@smith.com", 17})
 
-	sum,err := addNumbersInLoop(listOfNumbers)
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println(sum)
+	for _, l := range users {
+		log.Println(l.FirstName, l.LastName, l.Email, l.Age)
 	}
 }
