@@ -6,21 +6,16 @@ import (
 )
 
 func Home(w http.ResponseWriter, r *http.Request) {
-	_, err := fmt.Fprintf(w, "This is the home page")
-	if err != nil {
-		fmt.Errorf("Error %v", err)
-	}
+	fmt.Fprintf(w, "This is the home page")
 }
 
 func About(w http.ResponseWriter, r *http.Request) {
-	_, err := fmt.Fprintf(w, "This is the about page")
-	if err != nil {
-		fmt.Errorf("Error %v", err)
-	}
+	sum := AddValues(2, 2)
+	fmt.Fprintf(w, "This is the about page and 2 + 2 is %d", sum)
 }
 
-func AddValues(x, y int) (int, error) {
-	return x + y, nil
+func AddValues(x, y int) int {
+	return x + y
 }
 
 func main() {

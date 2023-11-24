@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang_training/14-Packages/helpers"
+	"golang_training/Section-01/14-Packages/helpers"
 	"log"
 )
 
