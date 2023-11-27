@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"golang_training/Section-02/05-BasicStyling/render"
+	"golang_training/Section-02/06-GoModules/render"
 	"net/http"
 )
 

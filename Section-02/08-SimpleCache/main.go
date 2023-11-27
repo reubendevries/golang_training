@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	handlers "golang_training/Section-02/05-BasicStyling"
+	"golang_training/Section-02/08-SimpleCache/handlers"
 	"net/http"
 )
 
