@@ -2,8 +2,8 @@ package render
 
 import (
 	"bytes"
-	"golang_training/Section-03/02-ChiRouting/config"
-	"golang_training/Section-03/02-ChiRouting/models"
+	"golang_training/Section-03/03-Middleware/config"
+	"golang_training/Section-03/03-Middleware/models"
 	"html/template"
 	"log"
 	"net/http"

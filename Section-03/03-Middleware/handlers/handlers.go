@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"golang_training/Section-03/02-ChiRouting/config"
-	"golang_training/Section-03/02-ChiRouting/models"
-	"golang_training/Section-03/02-ChiRouting/render"
+	"golang_training/Section-03/03-Middleware/config"
+	"golang_training/Section-03/03-Middleware/models"
+	"golang_training/Section-03/03-Middleware/render"
 	"net/http"
 )
 

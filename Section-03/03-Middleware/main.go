@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"golang_training/Section-03/02-ChiRouting/config"
-	"golang_training/Section-03/02-ChiRouting/handlers"
-	"golang_training/Section-03/02-ChiRouting/render"
+	"golang_training/Section-03/03-Middleware/config"
+	"golang_training/Section-03/03-Middleware/handlers"
+	"golang_training/Section-03/03-Middleware/render"
 	"log"
 	"net/http"
 )
