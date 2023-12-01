@@ -2,8 +2,8 @@ package render
 
 import (
 	"bytes"
-	"golang_training/Section-04/01-SessionsPackage/config"
-	"golang_training/Section-04/01-SessionsPackage/models"
+	"golang_training/Section-05/config"
+	"golang_training/Section-05/models"
 	"html/template"
 	"log"
 	"net/http"

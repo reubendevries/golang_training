@@ -1,8 +1,8 @@
 package main
 
 import (
-	"golang_training/Section-04/01-SessionsPackage/config"
-	"golang_training/Section-04/01-SessionsPackage/handlers"
+	"golang_training/Section-05/config"
+	"golang_training/Section-05/handlers"
 	"net/http"
 
 	"github.com/go-chi/chi"

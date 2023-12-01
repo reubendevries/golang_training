@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"golang_training/Section-04/01-SessionsPackage/config"
-	"golang_training/Section-04/01-SessionsPackage/handlers"
-	"golang_training/Section-04/01-SessionsPackage/render"
+	"golang_training/Section-05/config"
+	"golang_training/Section-05/handlers"
+	"golang_training/Section-05/render"
 	"log"
 	"net/http"
 	"time"

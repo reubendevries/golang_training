@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"golang_training/Section-04/01-SessionsPackage/config"
-	"golang_training/Section-04/01-SessionsPackage/models"
-	"golang_training/Section-04/01-SessionsPackage/render"
+	"golang_training/Section-05/config"
+	"golang_training/Section-05/models"
+	"golang_training/Section-05/render"
 	"net/http"
 )
 
